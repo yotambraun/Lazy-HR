@@ -3,21 +3,30 @@
 To use this project, you will need to have Python 3 and the following libraries installed:
 
 re
+
 matplotlib
+
 wordcloud
+
 pdfminer
+
 docx2pdf
+
 nltk
+
 stop_words
+
 pythoncom
+
 win32com
+
 Once you have these installed, you can clone the repository and run the script with the following command:
 
 ### python resume_analyzer.py /path/to/resume.pdf
 
-This will generate a word cloud of the most frequently used words in the resume, as well as a count of the number of occurrences of words related to data science.
+### This will generate a word cloud of the most frequently used words in the resume, as well as a count of the number of occurrences of words related to data science.
 
-Alternatively, you can import the ResumeAnalyzer class and use it in your own Python code:
+## Alternatively, you can import the ResumeAnalyzer class and use it in your own Python code:
 
 
 from resume_analyzer import ResumeAnalyzer
