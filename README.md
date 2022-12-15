@@ -38,7 +38,7 @@ Once you have these installed, you can clone the repository and run the script w
 
 ```python resume_analyzer.py /path/to/resume.pdf ```
 
-### This will generate a word cloud of the most frequently used words in the resume, as well as a count of the number of occurrences of words related to data science.
+### This project is a resume analyzer that extracts text from a resume file (in PDF or DOCX format), and then counts the number of occurrences of words related to data science in the extracted text. It does this by using regular expressions to extract words from the text, and then using a set of words related to data science to count the number of occurrences of those words in the extracted text. The project includes a ResumeAnalyzer class that has several methods for loading and processing a resume file, extracting words from the text, and counting the occurrences of words related to data science. This class can be used in other Python projects to analyze resumes for the presence of data science-related words.
 
 ## Alternatively, you can import the ResumeAnalyzer class and use it in your own Python code:
 
