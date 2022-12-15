@@ -22,7 +22,7 @@ win32com
 
 Once you have these installed, you can clone the repository and run the script with the following command:
 
-### python resume_analyzer.py /path/to/resume.pdf
+```python python resume_analyzer.py /path/to/resume.pdf ```python
 
 ### This will generate a word cloud of the most frequently used words in the resume, as well as a count of the number of occurrences of words related to data science.
 
