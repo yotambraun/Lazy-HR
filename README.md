@@ -42,4 +42,4 @@ processed_words = analyzer.process_word(words)
 data_science_word_occurrences = analyzer.count_data_science_words_occurrences(processed_words)```
 
 
-ou can then use the extracted text, words, and counts in your own analysis.
+## or can then use the extracted text, words, and counts in your own analysis.
