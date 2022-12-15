@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href='/staticFiles/main.css' />
+      </head>
+  <body>
+    <h1>Upload and display image in Flask</h1>
+    <p>flask display image from uploaded folder</p>
+<img src="{{ user_image }}" alt="World of cloud" width="500" height="400">
+<form action="/analyze" method="POST">
+    <input type="submit" name="Back to results page">
+</form>
+    </body>
+</html>

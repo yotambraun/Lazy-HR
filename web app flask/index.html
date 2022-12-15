@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+   <style>
+    <!doctype html>
+    <html>
+      <head>
+        <style>
+          body {
+            font-family: sans-serif;
+            background-color: #F8F8F8;
+          }
+          h1 {
+            color: #C0392B;
+            text-align: center;
+            margin-top: 50px;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+          }
+          input[type="file"] {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+          }
+          input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #C0392B;
+            color: white;
+            border: none;
+          }
+          p {
+            color: #333333;
+            font-size: 16px;
+            margin-top: 20px;
+          }
+    </style>
+    <title>Resume Analyzer</title>
+  </head>
+  <body>
+    <h1>Upload The Resume and Analyzer</h1>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume_file" />
+        <input type="submit" value="Analyze Resume" />
+	
+    </form>
+  </body>
+</html>

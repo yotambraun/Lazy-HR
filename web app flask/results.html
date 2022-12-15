@@ -1,0 +1,54 @@
+
+
+
+<!doctype html>
+<html>
+  <head>
+    <title>Resume Analyzer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #F8F8F8;
+      }
+      h1 {
+        color: #C0392B;
+      }
+      p {
+        color: #333333;
+        font-size: 16px;
+      }
+      table {
+        border: 1px solid #C0392B;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #C0392B;
+        padding: 10px;
+      }
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resume Analyzer Results</h1>
+    <p>Name Candidate: {{ analysis1 }}</p>
+    <h2>Data Science Keywords</h2>
+    <table>
+      <tr>
+        <th>Keyword</th>
+        <th>Number of Occurrences</th>
+      </tr>
+      {% for keyword, occurrence in analysis %}
+      <tr>
+        <td>{{ keyword }}</td>
+        <td>{{ occurrence }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <a href="/show_image">View wordcloud</a>
+  </body>
+</html>
+
+
