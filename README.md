@@ -16,6 +16,8 @@
 
 To use this project, you will need to have Python 3 and the following libraries installed:
 
+FLASK
+
 re
 
 matplotlib
