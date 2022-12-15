@@ -1,5 +1,19 @@
 # Lazy-HR
 
+
+# Image for Example:
+
+<img width="622" alt="menu" src="https://user-images.githubusercontent.com/57616193/207872843-717822e3-1bb9-4e27-b12a-96adf495a246.PNG">
+
+<img width="960" alt="resume analyzer result" src="https://user-images.githubusercontent.com/57616193/207872882-549e064e-9885-4586-b0ab-3d9154627e19.PNG">
+
+<img width="532" alt="apply without the web app" src="https://user-images.githubusercontent.com/57616193/207872908-2929f84b-402f-42b1-8327-7da34a82f57d.PNG">
+
+![wordcloud](https://user-images.githubusercontent.com/57616193/207872932-5688ed25-ad68-42d7-b2db-482f099f576d.png)
+
+
+
+
 To use this project, you will need to have Python 3 and the following libraries installed:
 
 re
@@ -45,12 +59,3 @@ data_science_word_occurrences = analyzer.count_data_science_words_occurrences(pr
 ## or can then use the extracted text, words, and counts in your own analysis.
 
 
-# Image for Example:
-
-<img width="622" alt="menu" src="https://user-images.githubusercontent.com/57616193/207872843-717822e3-1bb9-4e27-b12a-96adf495a246.PNG">
-
-<img width="960" alt="resume analyzer result" src="https://user-images.githubusercontent.com/57616193/207872882-549e064e-9885-4586-b0ab-3d9154627e19.PNG">
-
-<img width="532" alt="apply without the web app" src="https://user-images.githubusercontent.com/57616193/207872908-2929f84b-402f-42b1-8327-7da34a82f57d.PNG">
-
-![wordcloud](https://user-images.githubusercontent.com/57616193/207872932-5688ed25-ad68-42d7-b2db-482f099f576d.png)
