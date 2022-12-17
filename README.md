@@ -1,7 +1,7 @@
 # Lazy-HR
 
 
-# Image for Example:
+#### Image for Example:
 
 <img width="622" alt="menu" src="https://user-images.githubusercontent.com/57616193/207872843-717822e3-1bb9-4e27-b12a-96adf495a246.PNG">
 
