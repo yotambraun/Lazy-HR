@@ -9,7 +9,6 @@
 
 <img width="532" alt="apply without the web app" src="https://user-images.githubusercontent.com/57616193/207872908-2929f84b-402f-42b1-8327-7da34a82f57d.PNG">
 
-![wordcloud](https://user-images.githubusercontent.com/57616193/207872932-5688ed25-ad68-42d7-b2db-482f099f576d.png)
 
 
 
